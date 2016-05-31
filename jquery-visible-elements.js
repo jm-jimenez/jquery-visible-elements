@@ -1,4 +1,4 @@
-$.fn.isElementInViewport = function (){
+$.fn.isElementInViewport = function (when){
 	var bottomHeight = $(window).scrollTop() + $(window).height();
 	var elementOffset;
 	
