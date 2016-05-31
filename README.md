@@ -4,12 +4,13 @@ jQuery Visible Elements is a jQuery plugin which allows to check whether a eleme
 
 # Installation
 
-jQuery Visible Elements requires jQuery. Add the script tag in your html:
+[jQuery Visible Elements] requires jQuery. Add the script tag in your html:
 
 ``` html
 <script src='path-to/jquery.js'></script>
 <script src='path-to/jquery.visible-elements.min.js'></script>
 ```
+[jQuery Visible Elements]: https://github.com/jm-jimenez/jquery-visible-elements/blob/master/jquery-visible-elements.min.js
 
 # Usage
 Just call the method isElementInViewport() for the desired element. It will return true if it's currently in the screen, or false otherwise
