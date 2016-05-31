@@ -18,6 +18,15 @@ Just call the method isElementInViewport() for the desired element. It will retu
 $(selector).isElementInViewport();
 ```
 
+By default, it is considered that an element is visible when all of its height has appeared in the screen. You can modify this behaviour by giving a parameter.
+
+``` javascript
+$(selector).isElementInViewPort("top"); //visible when the upper border of the element appears in screen.
+$(selector).isElementInViewPort("mid"); //visible when the half of the element's height is currently in screen.
+$(selector).isElementInViewPort("bottom"); //visible when bottom border of the element appears in screen.
+
+```
+
 # Example
 
 Check every element prepared with the class 'to-animate' every time the viewport is scrolled. If the element is now visible, it will be animated, and no longer will be checked.
