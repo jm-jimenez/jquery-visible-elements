@@ -1,6 +1,6 @@
 # jQuery Visible Elements
 
-jQuery Visible Elements is a jQuery plugin which allows to check whether a element is fully visible in the current viewport or not. It becomes in handy when you want to animate elements of which parent is an element with an overflow : hidden, and you want to make sure the element is already in the screen prior to animation starts.
+jQuery Visible Elements is a jQuery plugin which allows to check whether a element is fully visible in the current viewport or not. It comes in handy when you want to animate elements of which parent is an element with an overflow : hidden, and you want to make sure the element is already in the screen prior to animation starts.
 
 # Installation
 
