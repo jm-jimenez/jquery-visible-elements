@@ -27,6 +27,12 @@ $(selector).isElementInViewPort("bottom"); //visible when bottom border of the e
 
 ```
 
+You can also specify the exact percentage which is required to consider and element visible by providing a number in range 0-100.
+```javascript
+$(selector).isElementInViewPort(20); //visible when 20% of the element has scrolled into the viewport
+$(selector).isElementInViewPort(80); //visible when 80% of the element has scrolled into the viewport
+```
+
 # Example
 
 Check every element prepared with the class 'to-animate' every time the viewport is scrolled. If the element is now visible, it will be animated, and no longer will be checked.
