@@ -8,7 +8,7 @@ $.fn.isElementInViewport = function (when){
 	else if (when === "mid"){
 		elementOffset = $(this).offset().top + $(this).height()/2;
 	}
-	else if (typeof when != "undefined"){
+	else if (typeof when != "undefined" && when != "bottom"){
 		if (when < 0){
 			when = 0;
 		}
